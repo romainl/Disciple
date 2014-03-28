@@ -1,6 +1,6 @@
 # Disciple
 
-Disciple is a low-contrast Vim colorscheme based on [Apprentice](http://www.vim.org/scripts/script.php?script_id=3299).
+Disciple is a low-contrast Vim colorscheme based on [Apprentice](https://github.com/romainl/apprentice).
 
 Its palette is the negative of Apprentice’s palette, restricted to the xterm palette to ensure a similar look in 256 colors-ready terminal emulators and GUI Vim.
 
