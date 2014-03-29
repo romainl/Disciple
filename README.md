@@ -4,6 +4,18 @@ Disciple is a low-contrast Vim colorscheme based on [Apprentice](https://github.
 
 Its palette is the negative of Apprentice’s palette, restricted to the xterm palette to ensure a similar look in 256 colors-ready terminal emulators and GUI Vim.
 
+Python:
+
+![Python](https://raw.githubusercontent.com/romainl/Disciple/master/screenshots/disciple_py.png)
+
+JavaScript:
+
+![JavaScript](https://raw.githubusercontent.com/romainl/Disciple/master/screenshots/disciple_js.png)
+
+Vim:
+
+![Vim](https://raw.githubusercontent.com/romainl/Disciple/master/screenshots/disciple_vim.png)
+
 ## Preparing your environment.
 
 Disciple is designed first and foremost to look “good” in terminal emulators supporting 256 colors and GUI Vim (GVim/MacVim). It supports lesser terminal emulators in the sense that it doesn’t break but it will definitely look “better” in more powerful environments.
