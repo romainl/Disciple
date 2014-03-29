@@ -30,14 +30,17 @@ Most terminal emulators in use nowadays *can* display 256 colors but most of the
 
 Here are a bunch of common terminal emulators and their “ideal” `TERM`:
 
-| Terminal emulator | ”Ideal” `TERM`          |
-|-------------------|-------------------------|
-| xterm             | `xterm-256color`        |
-| Gnome terminal    | `xterm-256color`        |
-| URxvt             | `rxvt-unicode-256color` |
-| iTerm2            | `xterm-256color`        |
+| Environment | Terminal emulator | Default `TERM` | ”Ideal” `TERM`          |
+|-------------|-------------------|----------------|-------------------------|
+| Mac OS X    | iTerm2.app        | `xterm`        | `xterm-256color`        |
+| Mac OS X    | Terminal.app      | `xterm`        | `xterm-256color`        |
+| X11         | xterm             | `xterm`        | `xterm-256color`        |
+| X11         | URxvt             | `rxvt-unicode` | `rxvt-unicode-256color` |
+| X11/Gnome   | Gnome terminal    | `xterm`        | `xterm-256color`        |
+| X11/Gnome   | Terminator        | `xterm`        | `xterm-256color`        |
+| X11/KDE     | Konsole (KDE)     | `xterm`        | `xterm-256color`        |
 
-Please refer to your terminal emulator’s manual for how to do it.
+Please refer to your terminal emulator’s manual for how to set it up properly.
 
 ### Terminal multiplexers
 
