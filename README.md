@@ -16,6 +16,12 @@ Vim:
 
 ![Vim](https://raw.githubusercontent.com/romainl/Disciple/master/screenshots/disciple_vim.png)
 
+---
+
+Please note that this colorscheme is more of a thought experiment than an attempt to build a working colorscheme. Don't expect any further development.
+
+---
+
 ## Preparing your environment.
 
 Disciple is designed first and foremost to look “good” in terminal emulators supporting 256 colors and GUI Vim (GVim/MacVim). It supports lesser terminal emulators in the sense that it doesn’t break but it will definitely look “better” in more powerful environments.
