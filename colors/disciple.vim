@@ -1,8 +1,6 @@
 " 'disciple.vim' -- Vim color scheme.
 " Maintainer:   Romain Lafourcade (romainlafourcade@gmail.com)
 
-set background=light
-
 hi clear
 
 if exists('syntax_on')
@@ -14,6 +12,9 @@ let colors_name = 'disciple'
 
 if &t_Co >= 256 || has('gui_running')
   hi Normal           ctermbg=253  ctermfg=238  guibg=#dadada guifg=#444444 cterm=NONE           gui=NONE
+
+  set background=light
+
   hi Comment          ctermbg=NONE ctermfg=248  guibg=NONE    guifg=#a8a8a8 cterm=NONE           gui=NONE
   hi Constant         ctermbg=NONE ctermfg=32   guibg=NONE    guifg=#0087d7 cterm=NONE           gui=NONE
   hi Error            ctermbg=73   ctermfg=238  guibg=#5fafaf guifg=#444444 cterm=NONE           gui=NONE
@@ -90,6 +91,9 @@ if &t_Co >= 256 || has('gui_running')
 else
   " TODO: change these colors too
   hi Normal           ctermbg=NONE        ctermfg=LightGrey   cterm=NONE
+
+  set background=light
+
   hi Boolean          ctermbg=NONE        ctermfg=DarkYellow  cterm=NONE
   hi Comment          ctermbg=NONE        ctermfg=DarkBlue    cterm=NONE
   hi Constant         ctermbg=NONE        ctermfg=DarkYellow  cterm=NONE
